@@ -36,5 +36,5 @@ if (jonSnowHealth<=jamieLannisterAttack-jonSnowDefence){
     jonSnowHealth=0;
 }else{
     jonSnowHealth -= jamieLannisterAttack - jonSnowDefence
-    console.log(`Jon Snow's Health is down to ${jonSnowHealth}`)//templateLiterals
+    console.log(`Jon Snow's Health is down to ${jonSnowHealth}`)//
 }
