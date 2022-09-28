@@ -38,3 +38,23 @@ if (jonSnowHealth<=jamieLannisterAttack-jonSnowDefence){
     jonSnowHealth -= jamieLannisterAttack - jonSnowDefence
     console.log(`Jon Snow's Health is down to ${jonSnowHealth}`)//
 }
+
+if (jonSnowHealth +50 >= 100){
+    jonSnowHealth=100;
+}else{
+    jonSnowHealth+=50;
+}
+let coinLandsHeads = false;
+if (coinLandsHeads){
+    console.log("The fight continues")
+
+}
+else{
+    console.log("Jon is allowed to run away")
+}
+for (let i=0; i<5; i++){
+    jonSnowHealth -= (jamieLannisterAttack-jonSnowDefence)  // parenthesis can be removed -= has lower precedence than subtraction, similarly true for comparison
+    console.log('Jon\'s health is now ' + jonSnowHealth)
+}
+
+//write logic in for loop that detects if Jon's health is negative, in which case print Jon is dead and stop loop iterations.
